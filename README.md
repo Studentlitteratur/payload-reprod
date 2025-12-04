@@ -30,8 +30,7 @@ If you prefer to use Docker for local development instead of a local MongoDB ins
 
 To do so, follow these steps:
 
-- Modify the `MONGODB_URI` in your `.env` file to `mongodb://127.0.0.1/<dbname>`
-- Modify the `docker-compose.yml` file's `MONGODB_URI` to match the above `<dbname>`
+- Modify the `DATABASE_URI` in your `.env` file to match a local database connection on port 2345
 - Run `docker-compose up` to start the database, optionally pass `-d` to run in the background.
 
 ## How it works
