@@ -11,6 +11,12 @@ export const Media: CollectionConfig = {
       type: 'text',
       required: true,
     },
+    {
+      name: 'check',
+      type: 'checkbox',
+      label: 'Checkbox',
+      defaultValue: false,
+    },
   ],
   upload: true,
 }
